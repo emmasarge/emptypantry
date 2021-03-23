@@ -19,6 +19,7 @@ nav {
     text-decoration: none!important;
     font-size: 20px;
     margin-right:20px ;
+    text-shadow: 2px 2px 8px black;
  }
  .navbar a:hover {
     background-color: #F3ECE8;
@@ -27,11 +28,13 @@ nav {
     -webkit-transition: all 0.75s ease-in-out;
     color: #1F2027!important;
     border-radius: 2px;
+    text-shadow: none;
  }
 
 .navbar-brand {
     font-family: 'Rozha One', serif!important;
     font-size: 40px!important;
+    text-shadow: 2px 2px 8px black;
    
 }
 
@@ -42,6 +45,7 @@ background: url("../images/olives.jpg");
  background-size: cover;
 color: #F3ECE8;
 text-align: center;
+text-shadow: 2px 2px 8px black;
 }
 footer h5 {
     font-family: 'Rozha One', serif;
@@ -55,32 +59,32 @@ footer a {
 
 /*-------------INDEX.HTML------------*/
 #hero-outer {
-    height:800px;
+    height:700px;
     width: 100%;
     overflow: hidden;
     position: relative;
+    text-align: center;
 }
 
 #hero-home {
-    position: relative;
-    padding:30%;
+   
     background: url("../images/kitchen.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
     width: 100%;
+    
 }
 
 .enter-button {
-    position: relative;
+    position: absolute;
+    top: 50%;
     text-align: center; 
     display: block;
     margin: 0 auto;
-    margin-top: 100px;
-    margin-bottom: 250px;
     background-color: transparent;
-    border: none;
+    border:none;
     font-size: 45px;
     font-family: 'Rozha One', serif;
     color: #F3ECE8; 
