@@ -1,5 +1,4 @@
 
-
 body  {
    background-color: #F3ECE8;
    height: 100%;
@@ -19,7 +18,9 @@ nav {
  }
 
 .navbar-brand {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Rozha One', serif!important;
+    font-size: 30px;
+    font-weight: 300;
 }
 
 
