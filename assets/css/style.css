@@ -9,68 +9,93 @@ body  {
 
 nav {
     width: 100%;
+    margin-bottom: 15px;
 }
+
 
 .navbar a {
     font-family: 'Courier New', Courier, monospace;
     color: #F3ECE8!important;
     text-decoration: none!important;
+    font-size: 20px;
+    margin-right:20px ;
+ }
+ .navbar a:hover {
+    background-color: #F3ECE8;
+    transition: all 0.75s ease-in-out;
+    -moz-transition: all 0.75s ease-in-out;
+    -webkit-transition: all 0.75s ease-in-out;
+    color: #1F2027!important;
+    border-radius: 2px;
  }
 
 .navbar-brand {
     font-family: 'Rozha One', serif!important;
-    font-size: 30px;
-    font-weight: 300;
+    font-size: 40px!important;
+   
 }
 
 
  /*-------------FOOTER---------*/
 footer {
 background: url("../images/olives.jpg");
+ background-size: cover;
 color: #F3ECE8;
 text-align: center;
 }
 footer h5 {
     font-family: 'Rozha One', serif;
     font-size: 25px;
+    padding-top: 10px;
 }
-footer p {
-    font-family: 'Courier New', Courier, monospace;
+
+footer a {
+    color: #F3ECE8!important;
 }
 
 /*-------------INDEX.HTML------------*/
-#hero-home {
+#hero-outer {
+    height:800px;
+    width: 100%;
     overflow: hidden;
     position: relative;
+}
+
+#hero-home {
+    position: relative;
     padding:30%;
-     background: url("../images/kitchen.jpg");
+    background: url("../images/kitchen.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 180%;
+    height: 100%;
     width: 100%;
-   
-    
 }
+
 .enter-button {
+    position: relative;
+    text-align: center; 
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 250px;
     background-color: transparent;
     border: none;
-    color: #F3ECE8;
-    margin: auto;
-    display: flex;
-    font-size: 24px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 500;
-    
+    font-size: 45px;
+    font-family: 'Rozha One', serif;
+    color: #F3ECE8; 
+    text-shadow: 2px 2px 8px black;
 }
+
 .enter-button:hover {
-    background-color: #F3ECE8;
-    border: solid 2px #F3ECE8;
+    background-color: #F3ECE8!important;
+    border: solid 2px #F3ECE8!important;
+    color: #1F2027!important;
+    border-radius: 2px;
     transition: all 0.75s ease-in-out;
     -moz-transition: all 0.75s ease-in-out;
     -webkit-transition: all 0.75s ease-in-out;
     padding: 10px 20px;
-    color: #1F2027;
-    border-radius: 2px;
+    text-shadow: none;
 
 }
