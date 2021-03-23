@@ -26,12 +26,16 @@ nav {
 
  /*-------------FOOTER---------*/
 footer {
-
-  background-image: url("../assets/images/kitchen.jpg");
-        background-repeat:no-repeat;
-background-size:cover;
-  
-    
+background: url("../images/olives.jpg");
+color: #F3ECE8;
+text-align: center;
+}
+footer h5 {
+    font-family: 'Rozha One', serif;
+    font-size: 25px;
+}
+footer p {
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /*-------------INDEX.HTML------------*/
@@ -43,7 +47,7 @@ background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
+    height: 180%;
     width: 100%;
    
     
