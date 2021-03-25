@@ -58,6 +58,8 @@ footer a {
 }
 
 /*-------------INDEX.HTML------------*/
+
+
 #hero-outer {
     height:700px;
     width: 100%;
@@ -80,9 +82,7 @@ footer a {
 .enter-button {
     position: absolute;
     top: 50%;
-    text-align: center; 
-    display: block;
-    margin: 0 auto;
+   
     background-color: transparent;
     border:none;
     font-size: 45px;
