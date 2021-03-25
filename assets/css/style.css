@@ -103,3 +103,15 @@ footer a {
     text-shadow: none;
 
 }
+
+/*------ABOUT PAGE-------*/
+
+.about-bg {
+    background: url("../images/lettuce.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+
+}
