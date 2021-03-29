@@ -47,11 +47,16 @@ background: #F3ECE8;
 background-size: cover;
 color: #463e2e;
 text-align: center;
-width: 100%;
-position: absolute;
 
 
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 90px;            /* Footer height */
 }
+
+
+
 footer h5 {
     font-family: 'Rozha One', serif;
     font-size: 25px;
@@ -64,19 +69,23 @@ footer a {
 
 /*------------ABOUT--------*/
 
-#about {
-    padding-top:100px;
-    background: url("../images/lettuce.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: inherit;
-    height:1000px;
-    width: 100%;
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#about h1 {
+    font-family: 'Rozha One', serif!important;
+    color: #463e2e;
+    font-size: 50px;
+    text-align: center;
+    
 }
 
 
 #about .container {
-    padding: 80px;
+    padding: 50px;
+   
 }
 
 .about-section {
@@ -85,6 +94,8 @@ footer a {
     margin: 0 auto;
     display: block;
     background-color: #F3ECE8;
-    
-
+    font-family: 'Raleway', sans-serif;
+    color:#463e2e;
+    line-height: 30px ;
 }
+
