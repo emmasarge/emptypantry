@@ -135,13 +135,13 @@ footer a {
     
 }
 
-.center-form {
+.contact-form {
   display: inline-block;
    width: 100%;
    margin-top: 20px;
 }
 
-.center-form input {
+.contact-form input {
     margin-bottom: 10px;
     border: 2px solid #463e2e;
     font-family: 'Raleway', sans-serif;    
@@ -151,7 +151,7 @@ footer a {
 
 }
 
-.center-form textarea {
+.contact-form textarea {
     border: 2px solid #463e2e;
     font-family: 'Raleway', sans-serif;
    
@@ -160,7 +160,7 @@ footer a {
     
 }
 
-.center-form button {
+.contact-form button {
     margin-top: 50px;
     margin-bottom:35px;
     background-color: #fafafa;
@@ -174,7 +174,7 @@ footer a {
 
 }
 
-.center-form button:hover{
+.contact-form button:hover{
     background-color: #535b31;
     border: solid 2px #535b31;
     transition: all 0.75s ease-in-out;

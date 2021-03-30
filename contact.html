@@ -16,7 +16,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;1,400&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/about.css" type="text/css">
-    <script src="js/contact.js"></script>
+       <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_JumqFUNjX2mAUxSBn12rS");
+        })();
+    </script>
+   
 </head>
 
 <body>
@@ -71,29 +77,19 @@
                             Empty Pantry!
                         </p>
                     </div>
-                    <div class="center-form">
-
+                    <div class="contact-form">
                      
-                        <form onsubmit="return sendMail(this);">
-                            <input type="text" name="name" id="fullname" class="form-control" placeholder="Name"
-                                required />
-                            <input type="text" name="emailaddress" id="emailaddress" class="form-control" placeholder="Email"
-                                required />
-                            <input type="tel" name="phone" id="phone" class="form-control" placeholder="Phone Number"
-                                required />
-                            <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control"
-                                placeholder="Tell us what's on your mind or what is in your pantry...."
-                                required></textarea>
-                            <div class="form-row text-center">
-                                <div class="col">
-                                    <button type="submit" class="btn btn-secondary">Submit</button>
-                                </div>
-                            </div>
-
-                        </form>
+                    
+                <form onsubmit="return sendMail(this);">
+                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                    <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="We are hungry to know what is on your mind..." required></textarea>
+                    <button type="submit" class="btn btn-secondary center-block">Send Message</button>
+                </form>
+            </div>
                     </div>
                 </div>
-            </div>
+            
         </div>
     </section>
 
@@ -150,6 +146,7 @@
     </footer>
 
 </body>
+     <script src="assets/js/contact.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -159,10 +156,5 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
     integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
     crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-
-<script type="text/javascript">
-    emailjs.init('user_JumqFUNjX2mAUxSBn12rS')
-</script>
 
 </html>
