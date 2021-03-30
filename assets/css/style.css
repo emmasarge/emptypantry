@@ -85,25 +85,26 @@ footer a {
 
 .enter-button {
     position: absolute;
-    top: 50%;
-    background-color: transparent;
+    top: 40%;
+    background-color: #F3ECE8;
     border:none;
     font-size: 45px;
     font-family: 'Rozha One', serif;
-    color: #F3ECE8; 
-    text-shadow: 2px 2px 8px black;
+    color: #1F2027; 
+    padding: 10px 20px;
+    
 }
 
 .enter-button:hover {
     background-color: #F3ECE8!important;
     border: solid 2px #F3ECE8!important;
-    color: #1F2027!important;
+    color: #515e1f!important;
     border-radius: 2px;
     transition: all 0.75s ease-in-out;
     -moz-transition: all 0.75s ease-in-out;
     -webkit-transition: all 0.75s ease-in-out;
-    padding: 10px 20px;
-    text-shadow: none;
+    padding: 10px 30px;
+    
 
 }
 
