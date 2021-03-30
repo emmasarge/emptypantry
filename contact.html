@@ -5,21 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Empty Pantry</title>
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
         type="text/css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Rozha+One&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rozha+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;1,400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/css/about.css" type="text/css">
-<script src="js/contact.js"></script>
+    <script src="js/contact.js"></script>
 </head>
 
 <body>
-    
+
     <!-----Navigation Bar----------->
 
     <header>
@@ -57,28 +58,32 @@
 
     <!---BODY----->
 
- <section class="contact-page-form">
+    <section class="contact-page-form">
         <div class="container-fluid">
             <div class="row bg-img-contact">
                 <div class="col">
 
                     <div class="contact-heading">
                         <h3>Contact us!</h3>
-                        <p>Get in touch with us with any questions and recipe ideas. We love to hear your ideas and what you think
-                            of the the available recipes so we can make sure you always find some delicious ideas on Empty Pantry!
+                        <p>Get in touch with us with any questions and recipe ideas. We love to hear your ideas and what
+                            you think
+                            of the the available recipes so we can make sure you always find some delicious ideas on
+                            Empty Pantry!
                         </p>
                     </div>
                     <div class="center-form">
 
-                        <form>
+                     
+                        <form onsubmit="return sendMail(this);">
                             <input type="text" name="name" id="fullname" class="form-control" placeholder="Name"
                                 required />
-                            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
+                            <input type="text" name="emailaddress" id="emailaddress" class="form-control" placeholder="Email"
                                 required />
-                            <input type="tel" name="phone" id="phone" class="form-control"
-                                placeholder="Phone Number" required/>
-                            <textarea rows="5" name="enquiry" id="enquiry" class="form-control"
-                                placeholder="Tell us what's on your mind or what is in your pantry...." required></textarea>
+                            <input type="tel" name="phone" id="phone" class="form-control" placeholder="Phone Number"
+                                required />
+                            <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control"
+                                placeholder="Tell us what's on your mind or what is in your pantry...."
+                                required></textarea>
                             <div class="form-row text-center">
                                 <div class="col">
                                     <button type="submit" class="btn btn-secondary">Submit</button>
@@ -97,13 +102,13 @@
         <div class="row">
             <div class="col-sm">
                 <h5 class="uppercase general-sub">email</h5>
-              <i class="fa fa-paper-plane" aria-hidden="true"></i>
-                        
+                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+
             </div>
             <div class="col-sm">
                 <h5 class="uppercase general-sub">telephone</h5>
                 <i class="fa fa-phone" aria-hidden="true"></i>
-                
+
             </div>
             <div class="col-sm">
                 <h5 class="uppercase general-sub">social</h5>
@@ -120,7 +125,7 @@
                             <span class="sr-only">Twitter</span>
                         </a>
                     </li>
-                
+
                     <li class="list-inline-item">
                         <a target="_blank" href="https://www.pinterest.co.uk/">
                             <i class="fa fa-pinterest" aria-hidden="true"></i>
@@ -143,10 +148,21 @@
             </div>
         </div>
     </footer>
-    
+
 </body>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+<script type="text/javascript">
+    emailjs.init('user_JumqFUNjX2mAUxSBn12rS')
+</script>
 
 </html>

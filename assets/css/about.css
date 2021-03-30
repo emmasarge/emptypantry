@@ -98,4 +98,88 @@ footer a {
     color:#463e2e;
     line-height: 30px ;
 }
+/*----------CONTACT PAGE-------------*/
+.contact-heading {
+    background-color: #fafafa;
+     padding: 10px 10px 10px 10px;
+     border: 2px solid #463e2e;
+    
+}
+.contact-heading h3 {
+    font-family: 'Rozha One', serif;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: #463e2e;
+    
+   
+}
+
+.contact-heading p {
+    font-family: 'Raleway', sans-serif;
+    color: #463e2e;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    padding: 1%;
+
+}
+
+
+.contact-page-form {
+   position: relative;
+   text-align: center;
+   padding: 10%;
+   height: 100%;
+  
+    
+}
+
+.center-form {
+  display: inline-block;
+   width: 100%;
+   margin-top: 20px;
+}
+
+.center-form input {
+    margin-bottom: 10px;
+    border: 2px solid #463e2e;
+    font-family: 'Raleway', sans-serif;    
+    
+    font-weight: 300;
+    border-radius: 0%;
+
+}
+
+.center-form textarea {
+    border: 2px solid #463e2e;
+    font-family: 'Raleway', sans-serif;
+   
+    font-weight: 300;
+    border-radius: 0%;
+    
+}
+
+.center-form button {
+    margin-top: 50px;
+    margin-bottom:35px;
+    background-color: #fafafa;
+    font-family: 'Rozha One', serif;
+    color: #463e2e;
+    font-size: 25px;
+    letter-spacing: 2px;
+    border-radius: 1px;
+    border: solid 2px #463e2e;
+    padding: 10px 60px 10px 60px;
+
+}
+
+.center-form button:hover{
+    background-color: #535b31;
+    border: solid 2px #535b31;
+    transition: all 0.75s ease-in-out;
+    -moz-transition: all 0.75s ease-in-out;
+    -webkit-transition: all 0.75s ease-in-out;
+
+}
 
