@@ -15,7 +15,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/about.css" type="text/css">
-    <script src="js/recipe.js"></script>
+    
 
 </head>
 
@@ -57,11 +57,63 @@
 
 
     <!---BODY----->
-<section>
-    <div class="recipe-intro"></div>
-    <div class="recipe-search"></div>
-</section>
+  <div class = "container">
+    <div class = "recipe-wrapper">
+      <div class = "recipe-search">
+        <h2 class = "title">Let's get cooking!</h2>
+        <p>Whatever is left in your empty fridge or pantry, we have a recipe idea for you!</p>
 
+        <div class = "recipe-search-box">
+          <input type = "text" class = "search-control" placeholder="Type in an ingredient..." id = "search-input">
+          <button type = "submit" class = "search-btn btn" id = "search-btn">
+            <i class = "fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class = "recipe-result">
+        <h2 class = "title">Your Search Results:</h2>
+        <div id= "recipe">
+          <!-- recipe item -->
+          <!-- <div class = "recipe-item">
+            <div class = "recipe-img">
+              <img src = "olives.jpg" alt = "olives">
+            </div>
+            <div class = "recipe-name">
+              <h3>Olives</h3>
+              <a href = "#" class = "recipe-btn">Get Recipe</a>
+            </div>
+          </div> -->
+          <!-- end of recipe item -->
+        </div>
+      </div>
+
+
+      <div class = "recipe-details">
+        <!-- recipe close btn -->
+        <button type = "button" class = "btn recipe-close-btn" id = "recipe-close-btn">
+          <i class = "fas fa-times"></i>
+        </button>
+
+        <!-- meal content -->
+        <div class = "recipe-content">
+          <!-- <h2 class = "recipe-title">Recipe Name Here</h2>
+          <p class = "recipe-category">Category Name</p>
+          <div class = "recipe-instruct">
+            <h3>Instructions:</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo blanditiis quis accusantium natus! Porro, reiciendis maiores molestiae distinctio veniam ratione ex provident ipsa, soluta suscipit quam eos velit autem iste!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam voluptatibus ad obcaecati magnam, esse numquam nisi ut adipisci in?</p>
+          </div>
+          <div class = "recipe-meal-img">
+            <img src = "food.jpg" alt = "">
+          </div>
+          <div class = "recipe-link">
+            <a href = "#" target = "_blank">Watch Recipe Video</a>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
 
     <!---FOOTER-->
     <footer class="container-fluid fixed-bottom">
@@ -116,6 +168,7 @@
     </footer>
     
 </body>
+<script src="assets/js/recipe.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
