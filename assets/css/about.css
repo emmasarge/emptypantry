@@ -1,7 +1,19 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     padding-top: 70px;
     padding-bottom: 100px;
     background-color: #F3ECE8;
+    font-family: 'Raleway', sans-serif;
+    color: #463e2e;
+    font-size: 18px;
+    font-weight: 300;
+    
 }
 
 /*-------NAVIGATION---------*/
@@ -185,4 +197,41 @@ footer a {
 
 /*------------RECIPE PAGE!!-----------------*/
 
+.recipe-wrapper {
+    text-align: center;
+}
+.title {
+    font-family: 'Rozha One', serif;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #463e2e;
+    margin: 2rem 0;
+    
+}
 
+.recipe-search p {
+    font-family: 'Raleway', sans-serif;
+    color: #463e2e;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    padding: 1%;
+    text-align: center;
+
+}
+.recipe-search-box  {
+    align-items: stretch;
+}
+
+
+
+.recipe-search-box :placeholder-shown{
+     font-family: 'Raleway', sans-serif;
+    color: #463e2e;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    padding: 1%;
+    
+}

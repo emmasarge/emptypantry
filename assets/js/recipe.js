@@ -1,6 +1,6 @@
 const searchBtn = document.getElementById('search-btn');
 const recipeList = document.getElementById('recipe');
-const recipeDetailsContent = document.querySelector('.meal-details-content');
+const recipeDetailsContent = document.querySelector('.recipe-content');
 const recipeCloseBtn = document.getElementById('recipe-close-btn');
 
 // event listeners
@@ -19,7 +19,7 @@ function getRecipeList(){
     .then(data => {
         let html = "";
         if(data.meals){
-            data.meals.forEach(meal => {
+            data.meals.forEach(recipe => {
                 html += `
                     <div class = "recipe-item" data-id = "${recipe.idMeal}">
                         <div class = "recipe-img">
@@ -47,10 +47,10 @@ function getRecipeList(){
 function getRecipe(e){
     e.preventDefault();
     if(e.target.classList.contains('recipe-btn')){
-        let mealItem = e.target.parentElement.parentElement;
-        fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${mealItem.dataset.id}`)
+        let recipeItem = e.target.parentElement.parentElement;
+        fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${recipeItem.dataset.id}`)
         .then(response => response.json())
-        .then(data => mealRecipeModal(data.meals));
+        .then(data => recipePopup(data.meals));
     }
 }
 
