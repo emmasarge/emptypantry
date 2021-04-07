@@ -1,77 +1,20 @@
-const searchBtn = document.getElementById('search-btn');
-const recipeList = document.getElementById('recipe');
-const recipeDetailsContent = document.querySelector('.recipe-content');
-const recipeCloseBtn = document.getElementById('recipe-close-btn');
+function getsource(id){
+$.ajax ({
+url:"https://api.spoonacular.com/recipes/information?apiKey=db254b5cd61744d39a2deebd9c361444",
+success: function(res) {
 
-// event listeners
-searchBtn.addEventListener('click', getRecipeList);
-recipeList.addEventListener('click', getRecipe);
-recipeCloseBtn.addEventListener('click', () => {
-    recipeDetailsContent.parentElement.classList.remove('showRecipe');
+document.getElementById("sourceLink").innerHTML=res.sourceUrl
+document.getElementById("sourceLink").href=res.sourceUrl
+}
 });
-
-
-// recipes that match text-input ingredients
-function getRecipeList(){
-    let searchInputTxt = document.getElementById('search-input').value.trim();
-    fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${searchInputTxt}`)
-    .then(response => response.json())
-    .then(data => {
-        let html = "";
-        if(data.meals){
-            data.meals.forEach(recipe => {
-                html += `
-                    <div class = "recipe-item" data-id = "${recipe.idMeal}">
-                        <div class = "recipe-img">
-                            <img src = "${recipe.strMealThumb}" alt = "food">
-                        </div>
-                        <div class = "recipe-name">
-                            <h3>${recipe.strMeal}</h3>
-                            <a href = "#" class = "recipe-btn">Get Recipe</a>
-                        </div>
-                    </div>
-                `;
-            });
-            recipeList.classList.remove('notFound');
-        } else{
-            html = `We couldn't find anything with ${searchInputTxt} in our database!`;
-            recipeList.classList.add('notFound');
-        }
-
-        recipeList.innerHTML = html;
-    });
 }
+function getRecipe(q) {
+$.ajax ({
+url:"https://api.spoonacular.com/recipes/search?apiKey=db254b5cd61744d39a2deebd9c361444&number=1&query="+q,
+success: function(res) {
 
-
-// get recipe of the meal
-function getRecipe(e){
-    e.preventDefault();
-    if(e.target.classList.contains('recipe-btn')){
-        let recipeItem = e.target.parentElement.parentElement;
-        fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${recipeItem.dataset.id}`)
-        .then(response => response.json())
-        .then(data => recipePopup(data.meals));
-    }
+document.getElementById("output").innerHTML="<h1>"+res.results[0].title+"</h1><br><img src='"+res.baseUri+res.results[0].image+"' width='400' /><br>Ready in "+res.results[0].readyInMinutes+" minutes"
+getsource(res.results[0].id)
 }
-
-// create a modal
-function recipePopup(recipe){
-    console.log(recipe);
-    recipe = recipe[0];
-    let html = `
-        <h2 class = "recipe-title">${recipe.strMeal}</h2>
-        <p class = "recipe-category">${recipe.strCategory}</p>
-        <div class = "recipe-instruct">
-            <h3>Instructions:</h3>
-            <p>${recipe.strInstructions}</p>
-        </div>
-        <div class = "recipe-meal-img">
-            <img src = "${recipe.strMealThumb}" alt = "">
-        </div>
-        <div class = "recipe-link">
-            <a href = "${recipe.strYoutube}" target = "_blank">Watch Recipe Video with ${searchInputTxt} </a>
-        </div>
-    `;
-    recipeDetailsContent.innerHTML = html;
-    recipeDetailsContent.parentElement.classList.add('showRecipe');
-} 
+});
+}
