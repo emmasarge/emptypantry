@@ -67,15 +67,53 @@
                 <p>Whatever is left in your empty pantry, we have a recipe idea for you!</p>
             </div>
             <div class="recipe-search">
-                <input id="search" placeholder="Type ingredient here.."><button>Search</button>
-                <div id="output" class="recipe-text"></div>
+                <input id="search" placeholder="Type ingredient here.."><button id ="recipe-button">Search</button>
+             
+                
+                <div id="meal">
+                    <div class="recipe-info">
+                    <h2 class="recipe-name"></h2>
+                    </div>
+                    <div class="recipe-img">
+                    <img  src="#" alt="recipe">
+                    </div>
+                    <p class="recipe-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus neque maxime adipisci? Eos modi incidunt dolores non accusantium. Eligendi, dolore accusamus dolorem esse eum odio fugit aperiam nesciunt hic culpa!</p>
+                    
+                
+                </div> 
+
+
+
+                
                 <a href="" id="sourceLink"></a>
+        
             </div>
 
         </div>
+
+
+        <!-- The Modal -->
+<div id="recipe-modal">
+<button id="recipeModal">Recipe Details</button>
+
+
+<div id="popUp" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3 class= "recipe-header"></h3>
+    <p class="instructions">Some text in the Modal..</p>
+  </div>
+
+</div>
+</div> 
+      
+    
+
     </section>
     <!---FOOTER-->
-    <footer class="container-fluid fixed-bottom">
+    <footer class="container fixed-bottom">
         <div class="row">
             <div class="col-sm">
                 <h5 class="uppercase general-sub">email</h5>
@@ -127,7 +165,7 @@
     </footer>
 
 </body>
-<script src="assets/js/recipe.js"></script>
+<script src="assets/js/recipe2.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
