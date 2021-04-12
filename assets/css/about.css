@@ -254,3 +254,8 @@ footer a {
     padding: 1%;
     
 }
+
+#meal {
+    display: block;
+    box-shadow: 0 8px 6px -6px black;
+}
