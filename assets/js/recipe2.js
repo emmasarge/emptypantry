@@ -18,6 +18,7 @@ function recipeSearch (mealname) {
 
     $.getJSON(api,function(data) {
         var recipe = data.meals;
+
         console.log(recipe);
 
         var display="";
@@ -28,13 +29,23 @@ function recipeSearch (mealname) {
         }
         else {
              for (var i=0; i < recipe.length; i++) {
-                 
-                display +="<h2>"+ recipe[i].strMeal+"</h2>";
-                display +="<img src='" + recipe[i].strMealThumb + "' width ='300px'/>";
-                display +="<p>"+ recipe[i].strInstructions +"</p>";
+                
+                display +=`<div id="recipe-wrapper">
+                <h2> ${recipe[i].strMeal}</h2>;
+               <img src=${recipe[i].strMealThumb} width ='300px'/>;
+               <div id="toggle>
+               <p>${recipe[i].strInstructions} </p>
+               <p>${recipe[i].strIngredient[i]}</p>
+               </div>
+               </div>`;
+               $('#toggle').click(function(){
+  $(this).toggleText('Before', 'After');
+})
+               
                   
 
              content.html(display);
+           
         }
         
 

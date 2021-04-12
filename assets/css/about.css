@@ -255,7 +255,10 @@ footer a {
     
 }
 
-#meal {
-    display: block;
-    box-shadow: 0 8px 6px -6px black;
+#recipe-wrapper {
+    border: #463e2e solid 1px;
+    box-shadow:6px 6px 6px 4px #463e2e;
+    border-radius: 10px;
+    padding-top: 20px;
+    margin-top: 20px;
 }
