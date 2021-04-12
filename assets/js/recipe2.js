@@ -12,7 +12,7 @@ function recipeResults(){
 
 function recipeSearch (mealname) {
     var api ="https://www.themealdb.com/api/json/v1/1/search.php?s=" + mealname ;
-    $('#meal').html("<img src='https://media.giphy.com/media/M9OowyXcTJkOlkurIT/giphy.gif' width='300px'/>");
+    $('#meal').html("<img src='https://media.giphy.com/media/l3nWhI38IWDofyDrW/giphy.gif' width='100px'/>");
     
     var content = $('#meal');
 
@@ -32,26 +32,31 @@ function recipeSearch (mealname) {
                 
                 display +=`<div id="recipe-wrapper">
                 <h2> ${recipe[i].strMeal}</h2>;
-               <img src=${recipe[i].strMealThumb} width ='300px'/>;
-               <div id="toggle>
-               <p>${recipe[i].strInstructions} </p>
-               <p>${recipe[i].strIngredient[i]}</p>
+               <img src=${recipe[i].strMealThumb} width ='300px'/>
+               <details ontoggle="showMethod()">
+                <summary>Click here for the recipe!</summary>
+             <p id="recipe"  >${recipe[i].strInstructions} </p>
+              </details>
                </div>
-               </div>`;
-               $('#toggle').click(function(){
-  $(this).toggleText('Before', 'After');
-})
+               `
+               ;
                
-                  
-
              content.html(display);
+         
+
+ 
            
         }
-        
+      
 
 
     }
 })
 
+
+}
+
+function showMethod(){
+   $("p").css("font-weight", "400");
 
 }
