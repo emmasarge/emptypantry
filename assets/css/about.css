@@ -255,7 +255,7 @@ background-size: cover;
     width:40%;
 }
 #recipe-finder button {
-    width:20%;
+    width:30%;
     background-color: #463e2e;
    font-family: 'Raleway', sans-serif;
     color: #F3ECE8;
@@ -263,7 +263,7 @@ background-size: cover;
     letter-spacing: 2px;
     font-weight: 300;
     padding: .70%;
-    padding-right: 4%;
+    padding-right: 10px;
     margin-left: -5px;
     border: none;
     border-top-right-radius: 50px;
