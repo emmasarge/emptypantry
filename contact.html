@@ -16,13 +16,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;1,400&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/about.css" type="text/css">
-       <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
     <script type="text/javascript">
-        (function() {
+        (function () {
             emailjs.init("user_JumqFUNjX2mAUxSBn12rS");
         })();
     </script>
-   
+
 </head>
 
 <body>
@@ -31,26 +31,26 @@
 
     <header>
         <!--Navigation Bar-->
-         
+
         <nav class="navbar navbar-light navbar-expand-md fixed-top">
             <a href="index.html" class="navbar-brand logo">Empty Pantry</a>
 
-            <button class="navbar-toggler ml-auto" id= "tog-btn" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler ml-auto" id="tog-btn" type="button" data-toggle="collapse"
+                data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span></button>
 
             <div class="collapse navbar-collapse menu" id="navbarNavDropdown">
                 <ul class="navbar-nav topnav-right ml-auto">
                     <li class="active nav-item mr-2"><a class="nav-link" href="recipe.html">Recipes</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="about.html"
-                            target="_blank">About</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="about.html" target="_blank">About</a></li>
                     <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
-  
+
 
 
 
@@ -70,18 +70,21 @@
                         </p>
                     </div>
                     <div class="contact-form">
-                     
-                    
-                <form onsubmit="return sendMail(this);">
-                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-                    <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="We are hungry to know what is on your mind..." required></textarea>
-                    <button type="submit" class="btn btn-secondary center-block">Send Message</button>
-                </form>
-            </div>
+
+
+                        <form onsubmit="return sendMail(this);">
+                            <input type="text" name="name" class="form-control" id="fullname" placeholder="Name"
+                                required />
+                            <input type="text" name="emailaddress" class="form-control" id="emailaddress"
+                                placeholder="Email" required />
+                            <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary"
+                                placeholder="We are hungry to know what is on your mind..." required></textarea>
+                            <button type="submit" class="btn btn-secondary center-block">Send Message</button>
+                        </form>
                     </div>
                 </div>
-            
+            </div>
+
         </div>
     </section>
 
@@ -89,14 +92,16 @@
     <footer class="container-fluid">
         <div class="row">
             <div class="col-sm">
-                <h5 class="uppercase general-sub">email</h5>
-                <i class="fa fa-paper-plane" aria-hidden="true"></i>
-
+                <a href="contact.html">
+                    <h5 class="uppercase general-sub">email</h5>
+                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                </a>
             </div>
             <div class="col-sm">
+                <a href="tel:5551234567">
                 <h5 class="uppercase general-sub">telephone</h5>
                 <i class="fa fa-phone" aria-hidden="true"></i>
-
+                </a>
             </div>
             <div class="col-sm">
                 <h5 class="uppercase general-sub">social</h5>
@@ -138,7 +143,7 @@
     </footer>
 
 </body>
-     <script src="assets/js/contact.js"></script>
+<script src="assets/js/contact.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>

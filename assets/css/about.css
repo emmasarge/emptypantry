@@ -1,7 +1,7 @@
 
 
 body {
-    padding-top: 70px;
+    padding-top: 100px;
     padding-bottom: 100px;
     background-color: #fafafa;
     font-family: 'Raleway', sans-serif;
@@ -17,8 +17,8 @@ body {
 
 nav {
     width: 100%;
-    background-color: #Fafafa;  
-    height:70px;
+    background-color: #Fafafa!important;  
+    height:100px;
     
 }
 
@@ -47,17 +47,19 @@ nav {
 .navbar-brand {
     font-family: 'Rozha One', serif!important;
     font-size: 40px!important;
+    padding-bottom: 20px;
 
    
 }
 #tog-btn {
-    color: black!important;
+    color: #463e2e!important;
+    background-color: #fafafa;
 }
 #navbarNavDropdown {
     background-color: #fafafa;
     padding-left: 20px;
-    padding-bottom: 30px;
-    
+    margin-top: -20px;
+   
 }
 
 
@@ -83,6 +85,10 @@ footer h5 {
 
 footer a {
     color: #463e2e!important;
+}
+
+section {
+    padding-bottom: 100px;
 }
 
 /*------------ABOUT--------*/
