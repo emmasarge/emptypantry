@@ -12,7 +12,7 @@ function recipeResults(){
 
 function recipeSearch (mealname) {
     var api ="https://www.themealdb.com/api/json/v1/1/search.php?s=" + mealname ;
-    $('#meal').html("<img src='https://media.giphy.com/media/l3nWhI38IWDofyDrW/giphy.gif' width='100px'/>");
+    $('#meal').html("<img src='https://media.giphy.com/media/sSgvbe1m3n93G/giphy.gif' width='100px'/>");
     
     var content = $('#meal');
 

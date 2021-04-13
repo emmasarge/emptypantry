@@ -31,34 +31,26 @@
 
     <header>
         <!--Navigation Bar-->
-        <nav class="navbar navbar-dark navbar-expand-md fixed-top" id="main-nav" data-toggle="collapse"
-            data-target="navbar-collapse.show">
-            <div class="container-fluid">
-                <a href="index.html" class="navbar-brand" aria-label="nav-brand logo">Empty Pantry
-                </a>
-                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
-                    data-target="#navbarcollapse" aria-expanded="false">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+         
+        <nav class="navbar navbar-light navbar-expand-md fixed-top">
+            <a href="index.html" class="navbar-brand logo">Empty Pantry</a>
 
-                <div class="navbar-collapse collapse" id="navbarcollapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="recipe.html" target="_blank" class="nav-link" aria-label="Classes">Recipes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="about.html" class="nav-link" target="_blank" aria-label="Classes">About</a>
-                        </li>
+            <button class="navbar-toggler ml-auto" id= "tog-btn" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span></button>
 
-                        <li class="nav-item">
-                            <a href="contact.html" class="nav-link" target="_blank" aria-label="Contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="collapse navbar-collapse menu" id="navbarNavDropdown">
+                <ul class="navbar-nav topnav-right ml-auto">
+                    <li class="active nav-item mr-2"><a class="nav-link" href="recipe.html">Recipes</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="about.html"
+                            target="_blank">About</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
             </div>
         </nav>
-
     </header>
+
+  
 
 
 
@@ -94,7 +86,7 @@
     </section>
 
     <!---FOOTER-->
-    <footer class="container-fluid fixed-bottom">
+    <footer class="container-fluid">
         <div class="row">
             <div class="col-sm">
                 <h5 class="uppercase general-sub">email</h5>
