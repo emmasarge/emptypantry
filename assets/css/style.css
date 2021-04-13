@@ -51,7 +51,7 @@ color: #F3ECE8;
 text-align: center;
 text-shadow: 2px 2px 8px black;
 width: 100%;
-position: absolute;
+
 }
 footer h5 {
     font-family: 'Rozha One', serif;
@@ -108,29 +108,3 @@ footer a {
 
 }
 
-/*------ABOUT PAGE-------*/
-
-.about-bg {
-    background: url("../images/lettuce.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:900px;
-    width: 100%;
-  
-
-}
-
-.container {
-    padding: 120px;
-}
-
-.about-section {
-    width: 80%;
-    margin-top: 140px;
-    margin: 0 auto;
-    display: block;
-    background-color: #F3ECE8;
-    
-
-}
