@@ -103,27 +103,41 @@ section {
     color: #463e2e;
     font-size: 50px;
     text-align: center;
-    margin: 1em 0;
+    margin: 0.25em 0;
     
 }
-
-
+#about {
+     background: url("../images/lettuce.jpg");
+    background-size: cover;
+}
 #about .container {
-    padding: 50px;
+    padding: 20px;
    
 }
 
+#about-text {
+    background-color: #fafafa;
+  
+}
+
 .about-section {
-    width: 80%;
-    margin-top: 140px;
+    width: 95%;
     margin: 0 auto;
     display: block;
+   padding-top: 100px;
+     
 
     font-family: 'Raleway', sans-serif;
     color:#463e2e;
     line-height: 30px ;
 }
 /*----------CONTACT PAGE-------------*/
+.contact-page-form {
+ background: url("../images/vegpattern.png");
+background-size: cover;
+
+}
+
 .contact-heading {
     background-color: #fafafa;
      padding: 10px 10px 10px 10px;
@@ -260,7 +274,7 @@ section {
 #recipe-finder input:placeholder-shown{
     font-family: 'Raleway', sans-serif;
     color: #463e2e;
-    font-size: 18px;
+    font-size: 12px;
     letter-spacing: 2px;
     font-weight: 300;
     padding: 1%;
@@ -268,9 +282,26 @@ section {
 }
 
 #recipe-wrapper {
-    border: #463e2e solid 1px;
-    box-shadow:6px 6px 6px 4px #463e2e;
-    border-radius: 10px;
+    
+    box-shadow:2px 2px 10px 2px #af9f82;
+    border-radius: 2px;
+     display: block;
+    margin: 0 auto;
     padding-top: 20px;
-    margin-top: 20px;
+    margin-top: 100px;
+    padding-bottom: 30px;
+    width: 70%;
+   
 }
+ #recipe-wrapper p {
+     padding: 50px;
+ }
+  #recipe-wrapper h2 {
+     font-weight: 600;
+     margin-bottom: 10px;
+ }
+  #recipe-wrapper img{
+     margin-bottom: 30px;
+     border-radius: 50%;
+     border: #463e2e 10px solid;
+ }
