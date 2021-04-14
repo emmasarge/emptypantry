@@ -44,30 +44,13 @@ nav {
 
 
  /*-------------FOOTER---------*/
-footer {
-background: url("../images/olives.jpg");
-background-size: cover;
-color: #F3ECE8;
-text-align: center;
-text-shadow: 2px 2px 8px black;
-width: 100%;
 
-}
-footer h5 {
-    font-family: 'Rozha One', serif;
-    font-size: 25px;
-    padding-top: 10px;
-}
-
-footer a {
-    color: #F3ECE8!important;
-}
 
 /*-------------INDEX.HTML------------*/
 
 
 #hero-outer {
-    height:800px;
+  height: 1000px;
     width: 100%;
     text-align: center;
 }
