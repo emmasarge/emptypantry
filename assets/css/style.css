@@ -2,6 +2,10 @@
 body  {
    background-color: #F3ECE8;
    height: 100%;
+    background: url("../images/kitchen.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   
 }
 
@@ -57,10 +61,7 @@ nav {
 
 #hero-home {
    
-    background: url("../images/kitchen.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+   
     height: 100%;
 
     
