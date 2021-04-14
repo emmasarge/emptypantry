@@ -37,6 +37,7 @@ nav {
     color: #1F2027!important;
     border-radius: 2px;
     text-shadow: none;
+    padding: 0px 10px;
  }
 
 .navbar-brand {
@@ -47,7 +48,12 @@ nav {
 }
 
 
- /*-------------FOOTER---------*/
+ /*-------------FOOTER---
+ 
+ removed footer so that the landing page can look very modern. all of the footer details are available on the rest of the pages!
+ 
+ 
+ ------*/
 
 
 /*-------------INDEX.HTML------------*/
@@ -59,13 +65,7 @@ nav {
     text-align: center;
 }
 
-#hero-home {
-   
-   
-    height: 100%;
 
-    
-}
 
 .enter-button {
     position: absolute;
