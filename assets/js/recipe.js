@@ -60,3 +60,17 @@ function showMethod(){
    $("#recipe").css("font-weight", "400");
 
 }
+
+function betaMessage () {
+    let message = document.querySelector(".recipe-sub")
+    let recipePage = prompt("Our recipe database is still being developed, you can enter one ingredient at a time. If you are happy, type 'yes' and search for recipes to your heart's delight! If you are not, type 'no' to send us an email");
+    if (recipePage.toLowerCase() === "no") {
+          location.href = "https://emmasarge.github.io/emptypantry/contact.html";
+        } else {
+          message.innerHTML =
+            "Enjoy your recipe search!";
+        }
+      };
+
+      
+window.addEventListener("load", betaMessage);

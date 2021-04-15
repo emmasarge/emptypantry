@@ -76,17 +76,20 @@ nav {
     font-family: 'Rozha One', serif;
     color: #1F2027; 
     padding: 10px 20px;
+    box-shadow: .5px .5px 50px .5px #1F2027;
     
 }
+
+
 
 .enter-button:hover {
     background-color: #F3ECE8!important;
     border: solid 2px #F3ECE8!important;
     color: #515e1f!important;
     border-radius: 2px;
-    transition: all 0.75s ease-in-out;
-    -moz-transition: all 0.75s ease-in-out;
-    -webkit-transition: all 0.75s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
     padding: 10px 30px;
     
 
