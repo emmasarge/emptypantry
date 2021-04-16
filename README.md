@@ -206,6 +206,7 @@ For the navbar, footer and background I used a warm off-white called #fafafa whi
 *  Validation testing to double check coding accuracy was done with:
   1) [W3S CSS Validator](https://jigsaw.w3.org/css-validator/) 
   2) [W3S Html Validator](https://validator.w3.org/)  
+  3) [Javascript Validator](https://beautifytools.com/javascript-validator.php)
   
  * Sent friends and family link to site to check on their variety of devices including:
 		* Apple iPhone 6, XS, 12
@@ -265,7 +266,7 @@ Photos were found via Google Image search:
 ### References for Code
 
 * I used a similar layout as my last project, Stardust Gym for the navbar and footer as it looks clean and it is easy to navigate, the contact page is pretty similar too. . 
-*
+* For the recipe search, I found a 
 
 
 ### Acknowledgements
