@@ -89,51 +89,56 @@ As a potential user of Empty Pantry I want:
 
 ## Scope 
 
-Empty Pantry is a site with featuring contemporary design and UX to provide recipes with a basic ingredient search with MealDB Api. The site is built with four pages: a landing page, recipe search page, about page and contact page.
+Empty Pantry is a site with featuring contemporary design and UX to provide recipes with a basic ingredient search with MealDB Api. The site is built with four responsive pages: a landing page, recipe search page, about page and contact page. The contact page is supported by EmailJs API with an automatic reply message for users to feel acknowledged after sending their initial message.
 
 ## Structure 
 
-I plan to keep the layout of the website to be very simple with a trusted and known style of navigation bar and footer. The body of the website will be reflective upon each page’s intent of information. Each link opens a page on a new tab.
+I plan to keep the layout of the website to be very simple with a popular hamburger style of navigation bar and footer. Each page will be clean and intuitive for the user using HTML, CSS, Bootstrap and Javascript where appropriate. 
   
 ## Skeleton 
 
-I created my wireframes initially on paper with pen and then onto Balsamiq. They aren’t the most detailed and I would like to improve on this for any future projects.
+The Empty Pantry site was planned out with mockup wireframes using Balsamiq. They are as follows:
  
 
-#### Home Page        
-* [Home page desktop](./assets/wireframes/home-page-desktop.png)
-* [Home page tablet](./assets/wireframes/home-page-tablet.png)
-* [Home page mobile](./assets/wireframes/home-page-mobile.png)
+#### Landing Page        
+* [Landing page desktop](/assets/images/readme/EPdesktopHome.png)
+* [Landing page tablet](/assets/images/readme/EPtabletHome.png)
+* [Landing page mobile](/assets/images/readme/EPmobileHome.png)
 ​
-#### Classes
-* [Class page desktop](./assets/wireframes/class-page-desktop.png)
-* [Class page tablet](./assets/wireframes/class-page-tablet.png)
-* [Class page mobile](./assets/wireframes/class-page-mobile.png)
+#### Recipe Page
+* [Recipe page desktop](/assets/images/readme/EPdesktopRecipe.png)
+* [Recipe page tablet](/assets/images/readme/EPtabletRecipe.png)
+* [Recipe page mobile](/assets/images/readme/EPmobileRecipe.png)
 ​
+#### About Page
+* [About page desktop](/assets/images/readme/EPdesktopAbout.png)
+* [About page tablet](/assets/images/readme/EPtabletAbout.png)
+* [About page mobile](/assets/images/readme/EPmobileAbout.png)
+
 #### Contact
-* [Contact page desktop](.assets/wireframes/contact-page-desktop.png)
-* [Contact page tablet](./assets/wireframes/contact-page-tablet.png)
-* [Contact page mobile](./assets/wireframes/contact-page-mobile.png)
+* [Contact page desktop](./assets/images/readme/EPdesktopContact.png)
+* [Contact page tablet](./assets/images/readme/EPtabletContact.png)
+* [Contact page mobile](./assets/images/readme/EPmobileContact.png)
 ​
 
 ### Colors
 
-I applied a clean and warm color scheme to Stardust Gym’s website.
+To keep a clean and natural look to the Empty Pantry Website and to enhance and idea of health, I used warm browns and greens. I was using a beige for the background but it wasn't providing enough of a contrast to benefit the UX. 
 
-For the navbar, footer and background I used a warm off-white called #fafafa which I learned about from the Code Institute course create a clean effect without being too cold and bright. The warmth of this white is more modern and easy on the eyes. The light color brings the navigation links and footer to the attention to the site visitor to enhance UX.
+For the navbar, footer and background I used a warm off-white called #fafafa which I used in my last project, Stardust Gym, to create a clean effect and provide enough contrast with the text. I like this white because it is softer on the eyes. I do favour using white backgrounds because they look refreshing and are easy to read from. 
 
-I based the rest of the site’s color scheme on an old ad I found from the 80’s and used a color picker from ColorZilla to match tones. I wanted to maintain an analogue and modern feel so I used grey, black, red and yellow. 
 
-* Black: #1a0f17
-* Yellow: rgb(255, 225, 0)
-* Red: #d73b27
+* Black: #1F2027
+* Brown: #463e2e
+* Beige: #F3ECE8
+* Green: #535b31
 * Off-white: #fafafa
 
 ### Images 
-   * With a strong 1980’s theme for the entire concept of Stardust Gym, I maintained the vintage aesthetic by using images from the 1980’s juxtaposed with a clean and modern design. To achieve the genuine 1980’s feel, there is a grainy film quality of the black and white images which are used behind text to achieve the clean and bright design similar to 1980’s advertisements. I found all of my images via Google image search looking specifically for 1980’s aerobics class, 1980’s weight workout.
+   * Images were really important for this project. The landing page is a huge image of a modern and warm kitchen. I used this so the site visitor can feel like they were in the kitchen getting ready to cook. For the recipe page, the images are provided from the mealDB API. The About page has a very lovely green image of cabbage as the background to create an effect of freshness, energy and simplicity. Below is a carousel of clean images of a kitchen shelf and menu items which I ensure have alt text. The Contact page has a light pattern of vegetables in the background I made to add a little interest to the page but to not be too busy against the contact form. 
  
 ### Fonts
-* Initially I was looking for an 80’s neon sign-like font but found a cleaner font called Monoton from Google Fonts. I paired this with a very clean and classic Gill Sans for the body text. I wanted to maintain a crisp and modern appearance to the overall site and decided to work with just two fonts to achieve this.
+* To stress contemporary design and consistency, and enhance the idea of simplicity, basics, and health, I used Courier New for the navbar, Courier new is such a familiar and old font it helps to create the idea of coming home when using this app. I used  Rozha One for headings as it is a very strong font and Raleway for most of the content on the site, again because it is easy on the eyes, clean and modern. Rozha One and Raleway were from Googlefonts. 
 
 ### Technologies Used
 
@@ -143,8 +148,16 @@ I based the rest of the site’s color scheme on an old ad I found from the 80�
 * [CSS3](https://en.wikipedia.org/wiki/CSS) for site styling
 
 * [Bootstrap](https://getbootstrap.com/) for navbar and page layouts.
+
+* [Javascript](https://www.javascript.com/) for interactive alerts, prompts and calling the APIs.
+
+* [JQuery](https://jquery.com/) a javascript library.
+
+* [MealDB](https://www.themealdb.com/api.php) the FREE recipe search API
+
+* [EmailJs](https://www.emailjs.com/) the email API I used on the contact page.
  
-* [Google Fonts](https://fonts.google.com/) for the MONOTON font. 
+* [Google Fonts](https://fonts.google.com/) for the Rozha One and Raleway fonts. 
 
 * [Git](https://git-scm.com/)
 
@@ -166,18 +179,24 @@ I based the rest of the site’s color scheme on an old ad I found from the 80�
 ### Features
 ---
 * Navigation bar
-* Responsive links opening in new tabs.
 * Brand Logo
 * Footer
 * Responsive elements for Desktop, tablet and mobile.
-* An intuitive sign-up form. 
+* An easy contact/email form. 
 * Call to action buttons
-* Downloadable pdf with class schedule
+* Javascript loops
+* Javascript if/else statements
+* Javascript prompts
+* EmailJs API
+* MealDB API
 * Images
 
 ### Future Features
 
-I would like to add a booking element for site visitors to book and pay for a class adhoc. I would also like to add some video elements and a blog with upcoming offers and workout tips, this page would be exclusive to members who are signed in with their username to the site. I would also like to improve the SEO and maintain a simple and efficient design and content.
+* I would like to find a better recipe Database so that i can include the ingredients and their measurements for the recipe search. I used mealDB because it is free and doesn't require a credit card to use. 
+* I would like to make the site have an ability to 'login' so that users can subscribe to a premium version of the app with more perks. 
+* I also want to be able to make the ingredient search bar so that the user can enter multiple ingredients.
+
 
 
 ### Testing 
@@ -198,7 +217,7 @@ I would like to add a booking element for site visitors to book and pay for a cl
 
 ### Feedback from Testing Users
 
-* The contact page heading doesn’t adapt to a smaller screen. ‘Membership’ falls beyond the lines of its display box. **FIXED**
+*  **FIXED**
 * List pricing on the page.
 * Include a blog or a page for news for the gym.
 * The red text boxes on the homepage are too transparent against the zebra print for the text to be readable. **FIXED**
@@ -207,9 +226,8 @@ I would like to add a booking element for site visitors to book and pay for a cl
 
 ### Bugs
 ---
-    * The schedule page pdf is not opening. Solution: Remove the …/ to the href before assets.
-    * Navbar not collapsing cleanly for mobile and tablet settings. Redid the navbar with bootstrap.
-    * Contact page heading is not adjusting to fit for small mobile screens. Solution: Changed font style to Gill sans and changed font size.
+    * Navbar dropdown not collapsing cleanly for mobile and tablet settings, the links were floating in the content. Redid the navbar with bootstrap and Chrome Dev Tools.
+    * Landing page was not extending fully on tablets so i changed the image to be a background image for the body in css instead, i had originally included a footer for the landing page which the gap initially helped but the footer wasn't necessary and took away from the effect of creating an environment for the user.
 
 
 ### Deployment 
@@ -217,8 +235,8 @@ I would like to add a booking element for site visitors to book and pay for a cl
 #### GitHub Pages
 
 To deploy this project with Github:
-1) On Github go to the Stardust Gym repository. 
-3) Under the Stardust Gym repository name, click  Settings.
+1) On Github go to the Empty Pantry repository. 
+3) Under the Empty Pantry repository name, click  Settings.
 4) Scroll down the page to find the “GitHub Pages” section. 
 5)  Use the drop-down menu to select a folder for your publishing source and choose 'Master'. 
 6) Refresh the page to confirm the site is published where you will see the notification highlighted in green.
@@ -237,19 +255,22 @@ To make a copy of the repository:
 ### Media 
 Photos were found via Google Image search:
 
-[Hero Image] (https://flashbak.com/10-reasons-aerobics-in-the-1980s-was-crazy-awesome-76/)
-[Contact Page](https://img.mensxp.com/media/content/2017/Mar/golden-era-bodybuilders-who-defined-the-sport-of-bodybuilding-along-with-arnold-schwarzenegger980-1489757302_600x280.jpg)
-[Background Patterns](https://www.freepik.com/vectors/80s-pattern)
-[Background Zebra Print](https://www.istockphoto.com/illustrations/zebra-pattern?phrase=zebra%20pattern&sort=best)
+[Hero Image] (https://unsplash.com/photos/0b19HoqaZCw)
+[About Page](https://unsplash.com/photos/1k_8uTXz85c)
+
+[Carousel 2](https://pixabay.com/photos/salad-figs-cheese-goat-cheese-1672505/)
+[Carousel 3](https://pixabay.com/photos/pancakes-maple-syrup-raspberries-2291908/)
+[Carousel 4](https://pixabay.com/photos/breakfast-healthy-hummus-spread-1804457/)
 
 ### References for Code
 
-* The homepage was based on the Love Running project from the Code Institute, particularly the nav and footer. 
+* I used a similar layout as my last project, Stardust Gym for the navbar and footer as it looks clean and it is easy to navigate, the contact page is pretty similar too. . 
+*
 
 
 ### Acknowledgements
 
-* I would like to thank Jim_Lynx from the CodeAcademy Slack group for his support and help.
+
 * I would like to thank the Code Institute for the knowledge shared.
-* I would like to thank my mentor Gbenga for his input.
+* I would like to thank my mentor Chris for his support and encouragement.
 
