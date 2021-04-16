@@ -51,10 +51,8 @@ function recipeSearch (mealname) {
 
 
     }
-})
-
-
-}
+});
+};
 
 function showMethod(){
    $("#recipe").css("font-weight", "400");

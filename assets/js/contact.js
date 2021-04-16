@@ -8,8 +8,8 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS!", response);
-            alert("Your message was sent! We will respond as soon as possible!")
-            $('form').children('textarea').val('YOUR MESSAGE WAS SENT 🌿!').css('color','green')
+            alert("Your message was sent! We will respond as soon as possible!");
+            $('form').children('textarea').val('YOUR MESSAGE WAS SENT 🌿!').css('color','green');
         },
         function(error) {
             console.log("FAILED", error);
