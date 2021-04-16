@@ -202,7 +202,7 @@ For the navbar, footer and background I used a warm off-white called #fafafa whi
 ### Testing 
 ---
 *  Development testing 
-    * I intermittently used [Google Dev Tools](https://developers.google.com/web/tools/chrome-devtools) to double check coding for all responsive layouts.
+* I intermittently used [Google Dev Tools](https://developers.google.com/web/tools/chrome-devtools) to double check coding and debugging.
 *  Validation testing to double check coding accuracy was done with:
   1) [W3S CSS Validator](https://jigsaw.w3.org/css-validator/) 
   2) [W3S Html Validator](https://validator.w3.org/)  
