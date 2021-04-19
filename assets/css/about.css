@@ -291,7 +291,7 @@ background-size: cover;
 #recipe-finder input:placeholder-shown{
     font-family: 'Raleway', sans-serif;
     color: #463e2e;
-    font-size: 12px;
+    font-size: 60%;
     letter-spacing: 2px;
     font-weight: 300;
     padding: 1%;
