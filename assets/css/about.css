@@ -13,7 +13,7 @@ body {
     
 }
 
-/*-------NAVIGATION---------*/
+/*-------NAVIGATION-------*/
 
 nav {
     width: 100%;
@@ -73,7 +73,7 @@ position: absolute;
 width: 100%;
 padding-top: 10px;
 height: 100px;
-             /* Footer height */
+            
 }
 
 
@@ -92,7 +92,7 @@ section {
     padding-bottom: 100px;
 }
 
-/*------------ABOUT--------*/
+/*------------ABOUT PAGE--------*/
 
 .page-container {
     position: relative;
