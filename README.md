@@ -229,16 +229,16 @@ For the navbar, footer and background I used a warm off-white called #fafafa whi
 
 ### Bugs
 ---
-    * Navbar dropdown not collapsing cleanly for mobile and tablet settings, the links were floating in the content. Redid the navbar with bootstrap and Chrome Dev Tools.
-    * Landing page was not extending fully on tablets so i changed the image to be a background image for the body in css instead, i had originally included a footer for the landing page which the gap initially helped but the footer wasn't necessary and took away from the effect of creating an environment for the user.
-    * Tried using Spoonacular API for a while, I struggled with this. I also was trying to use it without using my credit card because it is a freemium API and I didn't feel too confident about that at the point of time, in case anything went wrong. I considered using RecipePuppy API but it was too messy in the way it presents itself. 
-    * Recipes from the API were coming out really long and not separated. Tried making modal it was hard to separate each recipe from the search response so I made a toggle bar. 
-    * Email page was not notifying the user they sent the email so they thought it wasn't sent and kept pushing the send button so I recieved many repeat emails. I fixed this with adding a prompt via the send button and text box.
-    * The images in the carousel were not showing in the pushed version and I realised I labeled their source file wrong, I fixed this from using Chrome developer tools
-    * When checking the code, validating CSS, JavaScript and HTML, i had some missing semi-colons and the comments were a little messy.
-    * I had a few bugs with meal API. I didn't take note of these very well because I was so focused on trying to solve them. 
-    * Favicon was not showing-had to edit how the file was named in the code. Now the Favicon is visible.
-    * Had issues with the enter button on the homepage. Initially I played with margin, and padding to try and center the button, I ended up finding bootstrap to be most effective.
+ * Navbar dropdown not collapsing cleanly for mobile and tablet settings, the links were floating in the content. Redid the navbar with bootstrap and Chrome Dev Tools.
+* Landing page was not extending fully on tablets so i changed the image to be a background image for the body in css instead, i had originally included a footer for the landing page which the gap initially helped but the footer wasn't necessary and took away from the effect of creating an environment for the user.
+* Tried using Spoonacular API for a while, I struggled with this. I also was trying to use it without using my credit card because it is a freemium API and I didn't feel too confident about that at the point of time, in case anything went wrong. I considered using RecipePuppy API but it was too messy in the way it presents itself. 
+ * Recipes from the API were coming out really long and not separated. Tried making modal it was hard to separate each recipe from the search response so I made a toggle bar. 
+ * Email page was not notifying the user they sent the email so they thought it wasn't sent and kept pushing the send button so I recieved many repeat emails. I fixed this with adding a prompt via the send button and text box.
+* The images in the carousel were not showing in the pushed version and I realised I labeled their source file wrong, I fixed this from using Chrome developer tools
+* When checking the code, validating CSS, JavaScript and HTML, i had some missing semi-colons and the comments were a little messy.
+* I had a few bugs with meal API. I didn't take note of these very well because I was so focused on trying to solve them. 
+* Favicon was not showing-had to edit how the file was named in the code. Now the Favicon is visible.
+ * Had issues with the enter button on the homepage. Initially I played with margin, and padding to try and center the button, I ended up finding bootstrap to be most effective.
 
 
 ### Deployment 
@@ -278,7 +278,7 @@ Photos were found via Google Image search:
 ### References for Code
 ---
 * I used a similar layout as my last project, Stardust Gym for the navbar and footer as it looks clean and it is easy to navigate, the contact page is pretty similar too. . 
-* For the recipe search, I found a free API called MealDB. I found a youtube video to show an example of how to set the API up: {[Video is here](https://www.youtube.com/watch?v=HAUCtt6YI3E).
+* For the recipe search, I found a free API called MealDB. I found a youtube video to show an example of how to set the API up:[Video is here](https://www.youtube.com/watch?v=HAUCtt6YI3E).
 * I referred to Bootstrap libraries a lot 
 * I referred to CodeAcademy to get a better understanding of Javascript. I was having a very hard time with Javascript from the LMS as it was harder to understand. [CodeAcademy](https://www.codecademy.com/learn)
 * I did look at StackoverFlow, I did get some ideas to solutions from it, mostly with Jquery. Most of the time I gained benefits by looking at other people's code to understand how it worked, it was more further learning with a visual aspect. This helps me a lot, to work from literal examples. [StackOverFlow](https://stackoverflow.com/)
