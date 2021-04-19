@@ -1,10 +1,10 @@
 # Empty Pantry
-### Find a recipe with the last of your ingredients in the pantry
+ Find a recipe with the last of your ingredients in the pantry
 
-## Objective: To reduce food waste and offer inspiration to those with a bare fridge or cupboard by providing easy, affordable and healthy recipes.
-
+### Objective: To reduce food waste and offer inspiration to those with a bare fridge or cupboard by providing easy, affordable and healthy recipes.
+---
 # Empty Pantry
-—
+
 Empty Pantry is a resourceful site/app to find cooking inspiration to use the last of the ingredients in the cupboard or fridge, to reduce food waste and to encourage home-cooking. The recipes offer approachable instructions, there are healthy options and the recipes are cost-efficient. Using a simple API to retreive recipes from a database, Empty Pantry aims to invite users to try home-cooking and have fun! 
 
 
@@ -12,6 +12,7 @@ Empty Pantry is a resourceful site/app to find cooking inspiration to use the la
 
 ![Website Overview](./assets/images/readme/emptypantry.png)
 
+---
 ## Contents 
 ---
 * UX
@@ -82,8 +83,6 @@ As a potential user of Empty Pantry I want:
 
 ### Planning and Design
 ---
-## Layout & Wireframes
-
 ## Scope 
 
 Empty Pantry is a site with featuring contemporary design and UX to provide recipes with a basic ingredient search with MealDB Api. The site is built with four responsive pages: a landing page, recipe search page, about page and contact page. The contact page is supported by EmailJs API with an automatic reply message for users to feel acknowledged after sending their initial message.
@@ -96,6 +95,7 @@ I plan to keep the layout of the website to be very simple with a popular hambur
 
 The Empty Pantry site was planned out with mockup wireframes using Balsamiq. They are as follows:
  
+## Layout & Wireframes
 
 #### Landing Page        
 * [Landing page desktop](/assets/images/readme/EPdesktopHome.png)
@@ -138,7 +138,7 @@ For the navbar, footer and background I used a warm off-white called #fafafa whi
 * To stress contemporary design and consistency, and enhance the idea of simplicity, basics, and health, I used Courier New for the navbar, Courier new is such a familiar and old font it helps to create the idea of coming home when using this app. I used  Rozha One for headings as it is a very strong font and Raleway for most of the content on the site, again because it is easy on the eyes, clean and modern. Rozha One and Raleway were from Googlefonts. 
 
 ### Technologies Used
-
+---
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML5) 
 
@@ -168,8 +168,8 @@ For the navbar, footer and background I used a warm off-white called #fafafa whi
 
 
 ### For testing:
-
-* W3C for HTML](https://validator.w3.org/)  
+---
+* [W3C for HTML](https://validator.w3.org/)  
 
 * [W3C for CSS](https://jigsaw.w3.org/css-validator/)  
 
@@ -189,7 +189,7 @@ For the navbar, footer and background I used a warm off-white called #fafafa whi
 * Images
 
 ### Future Features
-
+---
 * I would like to find a better recipe Database so that i can include the ingredients and their measurements for the recipe search. I used mealDB because it is free and doesn't require a credit card to use. 
 * I would like to provide a way to filter the ingredients by dietary choice like vegetarian, vegan, gluten-free, kosher.
 * I would like to make the site have an ability to 'login' so that users can subscribe to a premium version of the app with more perks. 
@@ -263,20 +263,22 @@ To make a copy of the repository:
   
 ## Credits
 
-### Content was written by Emma Sargeant 2021
+Content was written by Emma Sargeant 2021
 
 ### Media 
+
+---
 Photos were found via Google Image search:
 
-[Hero Image](https://unsplash.com/photos/0b19HoqaZCw)
-[About Page](https://unsplash.com/photos/1k_8uTXz85c)
+* [Hero Image](https://unsplash.com/photos/0b19HoqaZCw)
+* [About Page](https://unsplash.com/photos/1k_8uTXz85c)
 
-[Carousel 2](https://pixabay.com/photos/salad-figs-cheese-goat-cheese-1672505/)
-[Carousel 3](https://pixabay.com/photos/pancakes-maple-syrup-raspberries-2291908/)
-[Carousel 4](https://pixabay.com/photos/breakfast-healthy-hummus-spread-1804457/)
+* [Carousel 2](https://pixabay.com/photos/salad-figs-cheese-goat-cheese-1672505/)
+* [Carousel 3](https://pixabay.com/photos/pancakes-maple-syrup-raspberries-2291908/)
+* [Carousel 4](https://pixabay.com/photos/breakfast-healthy-hummus-spread-1804457/)
 
 ### References for Code
-
+---
 * I used a similar layout as my last project, Stardust Gym for the navbar and footer as it looks clean and it is easy to navigate, the contact page is pretty similar too. . 
 * For the recipe search, I found a free API called MealDB. I found a youtube video to show an example of how to set the API up: {[Video is here](https://www.youtube.com/watch?v=HAUCtt6YI3E).
 * I referred to Bootstrap libraries a lot 
@@ -286,8 +288,7 @@ Photos were found via Google Image search:
 
 
 ### Acknowledgements
-
-
+---
 * I would like to thank the Code Institute for the knowledge shared.
 * I would like to thank my mentor Chris for his support and encouragement.
 
