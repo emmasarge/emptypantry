@@ -3,8 +3,6 @@
 
 ### Objective: To reduce food waste and offer inspiration to those with a bare fridge or cupboard by providing easy, affordable and healthy recipes.
 ---
-# Empty Pantry
-
 Empty Pantry is a resourceful site/app to find cooking inspiration to use the last of the ingredients in the cupboard or fridge, to reduce food waste and to encourage home-cooking. The recipes offer approachable instructions, there are healthy options and the recipes are cost-efficient. Using a simple API to retreive recipes from a database, Empty Pantry aims to invite users to try home-cooking and have fun! 
 
 
