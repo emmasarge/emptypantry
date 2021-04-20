@@ -8,7 +8,7 @@ Empty Pantry is a resourceful site/app to find cooking inspiration to use the la
 
 [You can view the live project here](https://emmasarge.github.io/emptypantry/index.html)
 
-![Website Overview](./assets/images/readme/emptypantry.png)
+![Website Overview](./assets/images/readme/emptypantrymockup.png)
 
 ---
 ## Contents 
@@ -20,9 +20,9 @@ Empty Pantry is a resourceful site/app to find cooking inspiration to use the la
 * User Requirements
 
 [Planning & Design](#planning-and-design)
-    * Layout & Wireframes
-    * Colors
-    * Fonts
+* Layout & Wireframes
+* Colors
+* Fonts
 
 [Technologies](#technologies) 
   
