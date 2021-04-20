@@ -392,5 +392,11 @@ background-size: cover;
 
  #meal {
      height:100%;
-     margin-bottom: 500px;
+     
  }
+
+ @media only screen and (max-width: 100px) {
+  #meal {
+    margin-bottom: 500px;
+  }
+}
