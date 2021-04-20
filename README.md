@@ -14,7 +14,7 @@ Empty Pantry is a resourceful site/app to find cooking inspiration to use the la
 ## Contents 
 ---
 * UX
-  * Project Goals
+  * [Project Goals](#Project Objectives)
   * User Goals
   * Business Goals
   * User Requirements
