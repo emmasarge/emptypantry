@@ -115,7 +115,7 @@ section {
     margin-bottom: 30px;
 }
 #about {
-     background: url("../images/lettuce.jpg");
+    background: url("../images/lettuce.jpg");
     background-size: cover;
 }
 #about .container {
@@ -140,7 +140,7 @@ section {
 }
 @media only screen and (max-width: 800px) {
   .about-section {
-    font-size: 12px;
+    font-size: 16px;
   }
   #about-text h1 {
       font-size: 30px;
