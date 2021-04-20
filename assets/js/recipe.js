@@ -1,4 +1,4 @@
-// Get information from search input
+// Get information from search input, got help with this youtube video https://www.youtube.com/watch?v=HAUCtt6YI3E
 function recipeResults() {
     var meal = $('#search').val();
     if (meal.length == 0) {
@@ -54,14 +54,14 @@ function showMethod() {
 
 }
 
-// This prompt lets users know this is a beta version of the website--Also trying to demonstrate if/else statement
+// This prompt lets users know to enter one ingredient and it will remind them of what they seached for
 function openMessage() {
     let ingredient = $('#search').val();
     if (ingredient.length == 0) {
         $(".recipe-sub").html(""); 
     }
     else {
-       $('#recipe-sub').html(`<p>Please enjoy the following recipes with <strong>${ingredient}</strong>!</p>`);
+       $('#recipe-sub').html(`<p>Please enjoy the following recipes with <strong>${ingredient}:</strong></p>`);
     }
 }
 
