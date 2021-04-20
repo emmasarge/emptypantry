@@ -55,11 +55,11 @@
             </div>
             <div id="recipe-search" class="container-fluid">
                 <input id="search" placeholder="Type ingredient here..">
-                <button id="recipe-button" onclick="recipeResults()">Search</button>
+                <button id="recipe-button" type="submit" onclick="recipeResults();openMessage();">Search</button>
                 <br>
                 </div>
 
-                <p class="recipe-sub"></p>
+                <p class="recipe-sub" id="recipe-sub">Please type one ingredient per search.</p>
 
 
 

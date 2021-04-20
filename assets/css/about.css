@@ -368,6 +368,10 @@ background-size: cover;
      
  }
 
+ #recipe-sub strong {
+     text-transform: uppercase;
+ }
+
  #meal {
      height:120%;
  }
