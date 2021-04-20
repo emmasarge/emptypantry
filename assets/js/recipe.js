@@ -56,12 +56,12 @@ function showMethod() {
 
 // This prompt lets users know this is a beta version of the website--Also trying to demonstrate if/else statement
 function openMessage() {
-    let mealname = $('#search').val();
-    if (meal.length == 0) {
-        $(".recipe-sub").replaceWith("");
+    let ingredient = $('#search').val();
+    if (ingredient.length == 0) {
+        $(".recipe-sub").html(""); 
     }
     else {
-       $('#recipe-sub').html(`<p>Please enjoy the following recipes with <strong>${mealname}</strong>!</p>`);
+       $('#recipe-sub').html(`<p>Please enjoy the following recipes with <strong>${ingredient}</strong>!</p>`);
     }
 }
 
