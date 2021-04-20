@@ -24,7 +24,7 @@ Empty Pantry is a resourceful site/app to find cooking inspiration to use the la
 * Colors
 * Fonts
 
-[Technologies](#technologies) 
+[Technologies](#technologies-used) 
   
 [Features](#features)
   * Current
@@ -136,7 +136,7 @@ For the navbar, footer and background I used a warm off-white called #fafafa whi
 ### Fonts
 * To stress contemporary design and consistency, and enhance the idea of simplicity, basics, and health, I used Courier New for the navbar, Courier new is such a familiar and old font it helps to create the idea of coming home when using this app. I used  Rozha One for headings as it is a very strong font and Raleway for most of the content on the site, again because it is easy on the eyes, clean and modern. Rozha One and Raleway were from Googlefonts. 
 
-### Technologies Used
+## Technologies Used
 ---
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML5) 
