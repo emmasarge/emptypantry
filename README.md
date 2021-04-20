@@ -254,6 +254,7 @@ For the navbar, footer and background I used a warm off-white called #fafafa whi
  * Contact page would validate any text for email because I accidentally had input type as text, changed this to email.
  * Input bar and search button are not aligned. Fixed this by making a grid from [stackoverflow](https://stackoverflow.com/questions/6726135/css-exact-same-height-and-alignment-of-button-and-input-text-box/8911271)
 * When testing my site for CSS, the validator found issues with bootstrap on all four pages [here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Femmasarge.github.io%2Femptypantry%2Fcontact.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+* The footer on the recipe page was floating in the middle of the page on tablets. I wanted to keep a sticky footer because the fixed footer was blocking the recipe results. I tried position absolute and changing the height of the container of the whole page but then if there are more recipe results, they are restricted and you couldn't see all of them. What I have managed to do it push the footer by creating margin-bottom 500px on #meal container. This allows the page to look flexible still.
 
 
 ### Deployment 
