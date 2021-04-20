@@ -395,7 +395,7 @@ background-size: cover;
      
  }
 
- @media only screen and (min-width: 1000px) {
+ @media only screen and (min-width: 700px) {
   #meal {
     margin-bottom: 500px;
   }
