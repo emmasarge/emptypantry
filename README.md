@@ -168,9 +168,13 @@ For the navbar, footer and background I used a warm off-white called #fafafa whi
 
 ### For testing:
 ---
-* [W3C for HTML](https://validator.w3.org/)  
+* [W3C for HTML](https://validator.w3.org/) to check HTML.
 
-* [W3C for CSS](https://jigsaw.w3.org/css-validator/)  
+* [W3C for CSS](https://jigsaw.w3.org/css-validator/) to check CSS. 
+
+* [Javascript Validator](https://beautifytools.com/javascript-validator.php) to check Javascript
+
+* [Jshint](https://jshint.com/) to check Javascript
 
 ### Features
 ---
@@ -221,11 +225,16 @@ For the navbar, footer and background I used a warm off-white called #fafafa whi
 
 ### Feedback from Testing Users
 
-* Can only type one ingredient at a time **FIXED-my solution was to create a prompt to inform user this is a beta site**
-* Pictures of recipes are too big **FIXED- I decreased the size of the images by percentage so they suit responive designs, also made pictures into circles** 
-* The content of recipe, about and contact page are hard to read. **FIXED-Made a better contrast with colors by using black and white.**
-* The send button on the email page didn't notify the user their email was sent and they kept sending the email over again. **FIXED- added a prompt to the send message button and included a message in the text box**
-* Include a way to filter recipes for dietary type like vegetarian, low-carb... **PENDING***
+* Can only type one ingredient at a time **FIXED**-my solution was to create a prompt to inform user this is a beta site**
+* Pictures of recipes are too big **FIXED**- I decreased the size of the images by percentage so they suit responive designs, also made pictures into circles** 
+* The content of recipe, about and contact page are hard to read. **FIXED**-Made a better contrast with colors by using black and white.**
+* The send button on the email page didn't notify the user their email was sent and they kept sending the email over again. **FIXED**- added a prompt to the send message button and included a message in the text box**
+* Include a way to filter recipes for dietary type like vegetarian, low-carb... **PENDING**
+* Fix the size of the landing page to avoid having to scroll **FIXED**
+* Remove the prompt on the recipe page because it looks messy **FIXED** changed the prompt into if/else statement in innerHTML
+* Make the contact page background a better contrast **FIXED** changed image for background.
+* Make recipe images smalled for desktop **FIXED** solved this with media query.
+
 
 
 ### Bugs
@@ -233,13 +242,18 @@ For the navbar, footer and background I used a warm off-white called #fafafa whi
  * Navbar dropdown not collapsing cleanly for mobile and tablet settings, the links were floating in the content. Redid the navbar with bootstrap and Chrome Dev Tools.
 * Landing page was not extending fully on tablets so i changed the image to be a background image for the body in css instead, i had originally included a footer for the landing page which the gap initially helped but the footer wasn't necessary and took away from the effect of creating an environment for the user.
 * Tried using Spoonacular API for a while, I struggled with this. I also was trying to use it without using my credit card because it is a freemium API and I didn't feel too confident about that at the point of time, in case anything went wrong. I considered using RecipePuppy API but it was too messy in the way it presents itself. 
- * Recipes from the API were coming out really long and not separated. Tried making modal it was hard to separate each recipe from the search response so I made a toggle bar. 
+ * Recipes from the API were coming out really long and not separated. Tried making modal it was hard to separate each recipe from the search response so I made a toggle bar with help from [mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary). 
  * Email page was not notifying the user they sent the email so they thought it wasn't sent and kept pushing the send button so I recieved many repeat emails. I fixed this with adding a prompt via the send button and text box.
-* The images in the carousel were not showing in the pushed version and I realised I labeled their source file wrong, I fixed this from using Chrome developer tools
+* The images in the carousel were not showing in the pushed version and I realised I labeled their source file wrong, I fixed this from using Chrome developer tools.
 * When checking the code, validating CSS, JavaScript and HTML, i had some missing semi-colons and the comments were a little messy.
 * I had a few bugs with meal API. I didn't take note of these very well because I was so focused on trying to solve them. 
 * Favicon was not showing-had to edit how the file was named in the code. Now the Favicon is visible.
  * Had issues with the enter button on the homepage. Initially I played with margin, and padding to try and center the button, I ended up finding bootstrap to be most effective.
+ * The landing page image was too big and I couldn't figure out why it was needing to be scrolled for figurative empty space, I fixed this with removing a 1220px style height of the container
+ * Had issues with the innerHTML response in recipe-sub of recipe page in the javascript, I had a misspelling. The issue was that i would search apple and the text would say "here are your recipe results for apple" and then i would search for chicken but the text would remain as apple.
+ * Contact page would validate any text for email because I accidentally had input type as text, changed this to email.
+ * Input bar and search button are not aligned. Fixed this by making a grid from [stackoverflow](https://stackoverflow.com/questions/6726135/css-exact-same-height-and-alignment-of-button-and-input-text-box/8911271)
+* When testing my site for CSS, the validator found issues with bootstrap on all four pages [here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Femmasarge.github.io%2Femptypantry%2Fcontact.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 
 ### Deployment 
