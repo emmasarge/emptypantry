@@ -1,11 +1,16 @@
+/*--Styling for the landing page, index.html ONLY---*/
 
-body  {
-   background-color: #Fafafa;
+body, html  {
    height: 100%;
+  
+  
+}
+#hero-outer {
     background: url("../images/kitchen.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
   
 }
 
@@ -23,14 +28,14 @@ nav {
 
 .navbar a {
     font-family: 'Courier New', Courier, monospace;
-    color: #F3ECE8!important;
+    color: #FAFAFA!important;
     text-decoration: none!important;
     font-size: 20px;
     margin-right:20px ;
     text-shadow: 2px 2px 8px black;
  }
  .navbar a:hover {
-    background-color: #F3ECE8;
+    background-color: #FAFAFA;
     transition: all 0.75s ease-in-out;
     -moz-transition: all 0.75s ease-in-out;
     -webkit-transition: all 0.75s ease-in-out;
@@ -43,7 +48,7 @@ nav {
 .navbar-brand {
     font-family: 'Rozha One', serif!important;
     font-size: 40px!important;
-    text-shadow: 2px 2px 8px black;
+    text-shadow: 1px 1px 8px black;
    
 }
 
@@ -55,21 +60,14 @@ nav {
  ------*/
 
 
-/*-------------INDEX.HTML------------*/
 
-
-#hero-outer {
-  height: 1000px;
-    width: 100%;
-    text-align: center;
-}
 
 
 
 .enter-button {
     position: absolute;
     top: 40%;
-    background-color: #F3ECE8;
+    background-color: #FAFAFA;
     border:none;
     font-size: 45px;
     font-family: 'Rozha One', serif;
@@ -82,13 +80,13 @@ nav {
 
 
 .enter-button:hover {
-    background-color: #F3ECE8!important;
-    border: solid 2px #F3ECE8!important;
+    background-color: #FAFAFA!important;
+    border: solid 2px #FAFAFA!important;
     color: #515e1f!important;
-    border-radius: 2px;
-    transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
+    border-radius: 1px;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
     padding: 10px 30px;
     
 }

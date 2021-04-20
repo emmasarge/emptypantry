@@ -96,7 +96,7 @@ section {
 
 .page-container {
     position: relative;
-    min-height: 100vh;
+    min-height: 100%;
 }
 
 #about h1 {
@@ -130,8 +130,6 @@ section {
     margin: 0 auto;
     display: block;
    padding-top: 100px;
-     
-
     font-family: 'Raleway', sans-serif;
     color:#463e2e;
     line-height: 30px ;
@@ -146,8 +144,9 @@ section {
 
 /*----------CONTACT PAGE-------------*/
 .contact-page-form {
- background: url("../images/vegpattern.png");
+ background: url("../images/olives.jpg");
 background-size: cover;
+
 
 }
 
@@ -197,18 +196,16 @@ background-size: cover;
     margin-bottom: 10px;
     border: 2px solid #463e2e;
     font-family: 'Raleway', sans-serif;    
-    
     font-weight: 300;
-    border-radius: 0%;
+  
 
 }
 
 .contact-form textarea {
     border: 2px solid #463e2e;
     font-family: 'Raleway', sans-serif;
-   
     font-weight: 300;
-    border-radius: 0%;
+    
     
 }
 
@@ -306,6 +303,8 @@ background-size: cover;
     display: block;
     margin: 0 auto;
     padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
     margin-top: 100px;
     padding-bottom: 30px;
     width: 80%;
@@ -315,15 +314,29 @@ background-size: cover;
      padding: 50px;
  }
   #recipe-wrapper h2 {
-     font-weight: 600;
-     margin-bottom: 10px;
+     font-family: 'Rozha One', serif;
+     font-size: 40px;
+     letter-spacing: 1px;
+     margin-bottom: 20px;
  }
   #recipe-wrapper img{
-     margin-bottom: 30px;
+     margin-bottom: 50px;
      border-radius: 50%;
-     border: #463e2e 10px solid;
-     width:80%;
+     border: #463e2e 7px solid;
+     width:40%;
  }
+
+ @media only screen and (max-width: 800px) {
+  #recipe-wrapper img {
+    width: 80%;
+  }
+
+}
+ #recipe-wrapper details {
+     font-size: 24px;
+     
+ }
+
  #meal {
      height:120%;
  }
