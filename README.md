@@ -48,11 +48,12 @@ Empty Pantry is a resourceful site/app to find cooking inspiration to use the la
   3) Emphasise approachability of site for users to use and contact the company to share their input, increase recipes.
   4) Use a free API with a recipe data base that responds to an ingredient search. 
   5) Demonstrate my use of Vanilla Javascript, JQuery and API's whilst maintaining visual integrity. 
+  
 
 ### User Goals 
 ---
 As a potential user of Empty Pantry I want:
- * I want to visit a modern and clean website.  
+* I want to visit a modern and clean website.  
 * I want to easily navigate the website.
 * I want to find a variety of recipes with a recipe search.
 * I want to be able to contact the Empty Pantry to complain if there aren't enough recipes.
@@ -84,7 +85,7 @@ As a potential user of Empty Pantry I want:
 ---
 ## Scope 
 
-Empty Pantry is a site with featuring contemporary design and UX to provide recipes with a basic ingredient search with MealDB Api. The site is built with four responsive pages: a landing page, recipe search page, about page and contact page. The contact page is supported by EmailJs API with an automatic reply message for users to feel acknowledged after sending their initial message.
+Empty Pantry is a site with featuring contemporary design and UX to provide recipes with a basic ingredient search with MealDB Api. The site is built with four responsive pages: a landing page, recipe search page, about page and contact page. The contact page is supported by EmailJs API with an automatic reply message for users to feel acknowledged after sending their initial message. I wanted to create a visual experience with the landing page of a modern kitchen, the recipe page being very simple and intuitive and the rest of the site to be fresh with green and simplicity. 
 
 ## Structure 
 
