@@ -274,7 +274,7 @@ background-size: cover;
 
 }
 #recipe-search {
-    margin-top: 50px;
+    margin-top: 40px;
     display: grid; 
     grid-template-rows: 2em; 
     text-align: center;
@@ -389,6 +389,7 @@ background-size: cover;
  #recipe-sub strong {
      text-transform: uppercase;
  }
+ 
 
  #meal {
      height:100%;
