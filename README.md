@@ -226,14 +226,16 @@ For the navbar, footer and background I used a warm off-white called #fafafa whi
 ### Feedback from Testing Users
 
 * Can only type one ingredient at a time **FIXED**-my solution was to create a prompt to inform user this is a beta site**
-* Pictures of recipes are too big **FIXED**- I decreased the size of the images by percentage so they suit responive designs, also made pictures into circles** 
+* Pictures of recipes are too big **FIXED**- I decreased the size of the images by percentage so they suit responive designs, also made pictures into circles 
 * The content of recipe, about and contact page are hard to read. **FIXED**-Made a better contrast with colors by using black and white.**
 * The send button on the email page didn't notify the user their email was sent and they kept sending the email over again. **FIXED**- added a prompt to the send message button and included a message in the text box**
 * Include a way to filter recipes for dietary type like vegetarian, low-carb... **PENDING**
 * Fix the size of the landing page to avoid having to scroll **FIXED**
 * Remove the prompt on the recipe page because it looks messy **FIXED** changed the prompt into if/else statement in innerHTML
 * Make the contact page background a better contrast **FIXED** changed image for background.
-* Make recipe images smalled for desktop **FIXED** solved this with media query.
+* Make recipe images smaller for desktop **FIXED** solved this with media query.
+* The footer blends in with the page too much **FIXED** added a border top to the footer to maintain light elegance but create division.
+* The recipes don't provdie ingredient measurements **PENDING** My current free API is limited, I would like to develop this page later on but at the moment I don't feel comfortable sharing my credit card details with another Recipe API.
 
 
 
