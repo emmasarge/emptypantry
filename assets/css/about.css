@@ -359,6 +359,11 @@ background-size: cover;
     width: 80%;
    
 }
+@media only screen and (max-width: 750px) {
+  #recipe-wrapper {
+    width: 100%;
+  }
+}
  #recipe-wrapper #recipe {
      padding: 10px;
  }
