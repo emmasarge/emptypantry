@@ -1,6 +1,6 @@
 
 function sendMail(contactForm) {
-  emailjs.send("service_vj63ygg","EmptyPantry", {
+  emailjs.send("default_service","template_l4sym4a", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
         "project_request": contactForm.projectsummary.value
